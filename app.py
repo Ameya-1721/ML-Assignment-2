@@ -201,4 +201,3 @@ with st.expander("Download predictions for this evaluation"):
     )
 
 st.divider()
-st.caption("Academic assignment demonstration · UCI Online Shoppers Purchasing Intention Dataset · Models are evaluated only; uploaded data is never used for fitting.")
