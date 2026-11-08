@@ -1,0 +1,37 @@
+{
+  "dataset_name": "Online Shoppers Purchasing Intention Dataset",
+  "dataset_rows": 12330,
+  "target_column": "Revenue",
+  "feature_columns": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "SpecialDay",
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend"
+  ],
+  "excluded_columns": [
+    "PageValues"
+  ],
+  "positive_label": 1,
+  "negative_label": 0,
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "K-Nearest Neighbors": "knn.joblib",
+    "Gaussian Naive Bayes": "gaussian_nb.joblib",
+    "Support Vector Machine": "svm.joblib"
+  },
+  "winner": "Logistic Regression",
+  "dataset_description": "UCI dataset of online shopping sessions. Revenue=1 indicates a purchase; Revenue=0 indicates no purchase."
+}
