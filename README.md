@@ -22,8 +22,6 @@ The notebook generates `model_metrics.csv` and writes the measured values below 
 
 | ML Model | Accuracy | ROC-AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
-| ML Model | Accuracy | ROC-AUC | Precision | Recall | F1 | MCC |
-|---|---|---|---|---|---|---|
 | Logistic Regression | 0.6310 | 0.7352 | 0.2600 | 0.7487 | 0.3860 | 0.2607 |
 | Support Vector Machine | 0.6476 | 0.7360 | 0.2596 | 0.6885 | 0.3771 | 0.2417 |
 | Decision Tree | 0.6715 | 0.6999 | 0.2643 | 0.6283 | 0.3721 | 0.2309 |
