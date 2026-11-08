@@ -60,23 +60,4 @@ ML-Assignment-2/
     └── svm.joblib
 ```
 
-## Run the notebook
-1. Open the notebook in BITS Virtual Lab.
-2. Run all cells from top to bottom. The notebook downloads the UCI CSV (or prompts you to place the CSV in the working directory if the lab has no internet).
-3. The export cell creates the `ML_Assignment_2_Submission/` folder and a ZIP archive containing the app, requirements, README, test data, metrics and saved models.
 
-## Run the Streamlit app locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-Upload `test_data.csv` or another labelled CSV containing all required input columns and `Revenue`. The application loads the saved models and evaluates the uploaded data; it does not retrain.
-
-## Deploy on Streamlit Community Cloud
-1. Push the generated project files to the GitHub repository.
-2. Open https://share.streamlit.io/ and sign in with GitHub.
-3. Create a new app, select the repository and branch, and set the main file path to `app.py`.
-4. Deploy and test using `test_data.csv`.
-
-## Important evaluation note
-This is a session-level classification exercise using the fields available in the dataset. Model scores are not evidence of real-time causal purchase intent. The uploaded CSV must contain ground-truth `Revenue` labels because the app calculates supervised evaluation metrics.
